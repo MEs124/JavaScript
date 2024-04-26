@@ -1,0 +1,80 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.product-card {
+  background: #fff;
+  display: grid;
+  grid-template-rows: 55% 45%;
+  height: 100%;
+  width: 50%;
+  position: relative;
+}
+button {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffa500;
+  border: none;
+  border-radius: 8px;
+  font-weight: 10px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  /* top: 50px; */
+  bottom: 24px;
+}
+
+.product-image {
+  background-image: url("./assets/redCarNew.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 10px;
+  /* height: 50%; */
+  /* width: 500 */
+}
+.product-description {
+  background-color: cadetblue;
+  color: #fff;
+  padding: 1em;
+}
+
+.color-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+.colors {
+  display: flex;
+  width: 6rem;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.red {
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.green {
+  background-color: green;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.blue {
+  background-color: blue;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
